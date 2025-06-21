@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepthi.R - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="HTML/style111.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <!-- Mobile Menu Toggle -->
+    <button id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+
+    <!-- Vertical Navigation Bar -->
+    <nav class="vertical-nav" aria-label="Main navigation">
+        <div class="nav-logo">
+            <img src="piccccc333333.jpeg" alt="Deepthi.R" class="profile-photo">
+            <h1 data-text="Deepthi.R">Deepthi.R</h1>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link" data-icon="🏠">Home</a></li>
+            <li><a href="#about" class="nav-link" data-icon="👤">About Me</a></li>
+            <li><a href="#skills" class="nav-link" data-icon="🛠️">Skills</a></li>
+            <li><a href="#timeline" class="nav-link" data-icon="📅">Timeline</a></li>
+            <li><a href="#projects" class="nav-link" data-icon="💻">Projects</a></li>
+            <li><a href="#testimonials" class="nav-link" data-icon="💬">Testimonials</a></li>
+            <li><a href="#chat" class="nav-link" data-icon="🗨️">Chat</a></li>
+            <li><a href="#contact" class="nav-link" data-icon="✉️">Contact</a></li>
+        </ul>
+        
+        <div class="nav-footer">
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+            <div class="social-mini">
+                <a href="#" aria-label="GitHub"><span>GH</span></a>
+                <a href="#" aria-label="LinkedIn"><span>LI</span></a>
+                <a href="#" aria-label="Twitter"><span>TW</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="main-content" class="main-content">
+        <!-- Header is now part of the fixed main content -->
+        <header class="mobile-header">
+            <h1>Deepthi.R</h1>
+            <div class="theme-toggle-mobile">
+                <button id="theme-toggle-btn-mobile" aria-label="Toggle dark mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+        </header>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="pixel-avatar">
+                    <!-- The quote is added via CSS content property -->
+                </div>
+                <div class="hero-text">
+                    <h2 class="pixel-text">Hello, I'm Deepthi.R</h2>
+                    <h3 class="pixel-text">Software Engineer</h3>
+                    <p class="pixel-text tagline">Crafting digital experiences one pixel at a time</p>
+                </div>
+            </div>
+            <button class="cta-button pixel-button">Get In Touch</button>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2 class="pixel-text">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <!-- Profile image div removed from here -->
+                
+                <div class="about-text">
+                    <p>As a fresh software engineer with a passion for building efficient, scalable applications, I bring a strong foundation in Java and its frameworks to every project I undertake. My journey in programming began during my academic years, where I developed a deep appreciation for clean code and thoughtful software architecture.</p>
+                    
+                    <p>I specialize in Java development with practical experience in Spring Boot, Hibernate, and RESTful API design. My technical toolkit also includes proficiency in SQL databases and front-end technologies like HTML, CSS, and JavaScript.</p>
+                    
+                    <div class="highlights-container">
+                        <div class="highlights">
+                            <h3 class="pixel-text">Career Highlights</h3>
+                            <ul>
+                                <li>Graduated Information Science Engineer</li>
+                                <li>Developed multiple fullstack projects during my course of internship</li>
+                                <li>Active contributor to open-source Java projects</li>
+                                <li>Participated in coding hackathons, securing top positions</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="ethics">
+                            <h3 class="pixel-text">Personal Ethics</h3>
+                            <ul>
+                                <li>Committed to continuous learning and staying updated with industry trends</li>
+                                <li>Strong believer in collaborative problem-solving and knowledge sharing</li>
+                                <li>Dedicated to writing maintainable, well-documented code</li>
+                                <li>Thrive in fast-paced environments where initiative and adaptability are valued</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="quote">
+                        <blockquote>"Life, a commitment with consistency" - This philosophy guides both my personal and professional journey. I believe that consistent effort, coupled with a growth mindset, is the key to excellence in software engineering.</blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section with Tabs -->
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2 class="pixel-text">Skills & Technologies</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <!-- Tabbed Technical Skills Box -->
+            <div class="skills-tabs-container">
+                <!-- Tab Navigation -->
+                <div class="skills-tabs">
+                    <button class="skill-tab active" data-tab="languages">Programming</button>
+                    <button class="skill-tab" data-tab="frameworks">Frameworks</button>
+                    <button class="skill-tab" data-tab="tools">Tools</button>
+                </div>
+                
+                <!-- Tab Content -->
+                <div class="skills-content">
+                    <!-- Programming Languages Tab -->
+                    <div class="tab-content active" id="languages">
+                        <h3 class="pixel-text">Programming Languages</h3>
+                        
+                        <!-- Java Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java (Core Java, Adv Java)</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 90%;" data-skill="Java"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Python Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Basics of Python</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 60%;" data-skill="Python"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Web Development Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Web Development</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%;" data-skill="Web"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Frameworks Tab -->
+                    <div class="tab-content" id="frameworks">
+                        <h3 class="pixel-text">Frameworks & Libraries</h3>
+                        
+                        <!-- Spring Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Spring</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%;" data-skill="Spring"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Spring Boot Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Spring Boot</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;" data-skill="SpringBoot"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Hibernate Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Hibernate</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;" data-skill="Hibernate"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools Tab -->
+                    <div class="tab-content" id="tools">
+                        <h3 class="pixel-text">Tools & Technologies</h3>
+                        
+                        <!-- SQL Databases Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL Databases</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 85%;" data-skill="SQL"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- RESTful APIs Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>RESTful APIs</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;" data-skill="REST"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- HTML/CSS/JavaScript Skill with Progress Bar -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS/JavaScript</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 75%;" data-skill="Frontend"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Soft Skills Section -->
+            <div class="soft-skills-container">
+                <h3 class="pixel-text">Soft Skills</h3>
+                <div class="soft-skills-grid">
+                    <!-- Communication Skill -->
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">💬</div>
+                        <div class="soft-skill-info">
+                            <h4>Communication</h4>
+                            <div class="soft-skill-bar-bg">
+                                <div class="soft-skill-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Problem Solving Skill -->
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">🧩</div>
+                        <div class="soft-skill-info">
+                            <h4>Problem Solving</h4>
+                            <div class="soft-skill-bar-bg">
+                                <div class="soft-skill-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Teamwork Skill -->
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">👥</div>
+                        <div class="soft-skill-info">
+                            <h4>Teamwork</h4>
+                            <div class="soft-skill-bar-bg">
+                                <div class="soft-skill-bar" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Adaptability Skill -->
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">🔄</div>
+                        <div class="soft-skill-info">
+                            <h4>Adaptability</h4>
+                            <div class="soft-skill-bar-bg">
+                                <div class="soft-skill-bar" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Time Management Skill -->
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">⏱️</div>
+                        <div class="soft-skill-info">
+                            <h4>Time Management</h4>
+                            <div class="soft-skill-bar-bg">
+                                <div class="soft-skill-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Creativity Skill -->
+                    <div class="soft-skill-item">
+                        <div class="soft-skill-icon">💡</div>
+                        <div class="soft-skill-info">
+                            <h4>Creativity</h4>
+                            <div class="soft-skill-bar-bg">
+                                <div class="soft-skill-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section - Modified to show Education -->
+        <section id="timeline" class="timeline">
+            <!-- Education timeline -->
+            <h2>Education</h2>
+            <div class="timeline-container">
+                <!-- Updated education details with all qualifications -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>B.E. Information Science Engineering</h3>
+                        <h4>Sea College of Engineering and Technology</h4>
+                        <p>CGPA: 8.9</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2019 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>PUC</h3>
+                        <h4>Venkatadri Ind PU College</h4>
+                        <p>Completed with 87%</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - 2018</div>
+                    <div class="timeline-content">
+                        <h3>10th Grade</h3>
+                        <h4>Dolphins Delhi Public School</h4>
+                        <p>Completed with 87.525%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <!-- Portfolio projects: Featured work, case studies -->
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <!-- Placeholder for project cards -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="placeholder-project.jpg" alt="Project Name">
+                    </div>
+                    <div class="project-details">
+                        <h3>Project Name</h3>
+                        <p>Brief description of the project, technologies used, and your role.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="placeholder-project.jpg" alt="Project Name">
+                    </div>
+                    <div class="project-details">
+                        <h3>Project Name</h3>
+                        <p>Brief description of the project, technologies used, and your role.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Live Demo</a>
+                            <a href="#" class="btn">Source Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <!-- Contact form and information -->
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Feel free to reach out to me via email or connect with me on social media.</p>
+                    <ul>
+                        <li>Email: your.email@example.com</li>
+                        <li>Location: Your City, Country</li>
+                    </ul>
+                    <div class="social-links">
+                        <!-- Placeholder for social media icons -->
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Deepthi.R. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="main.js"></script>
+</body>
+</html>
